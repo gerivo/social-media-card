@@ -69,10 +69,14 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition-property: all;
+    transition-duration: 350ms;
 }
 
 .link:hover {
     background-color: hsl(75, 94%, 57%);
+    color:hsl(0,0%,8%);
     cursor: pointer;
 }
 
